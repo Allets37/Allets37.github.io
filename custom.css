@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:"ONEPIECE";
+    src: url("./onepiecefont.ttf");
+    filter: hue-rotate(3.142rad);
+
+
+}
+.rotate {
+    filter: hue-rotate(3.142rad);
+}
